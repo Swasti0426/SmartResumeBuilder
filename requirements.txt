@@ -1,0 +1,9 @@
+Flask
+Flask-Login
+Flask-SQLAlchemy
+Werkzeug
+pdfkit
+pdfplumber
+python-docx
+spacy>=3.0.0
+pydantic>=1.9.0
