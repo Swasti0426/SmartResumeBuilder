@@ -672,9 +672,6 @@ def uploadpdf():
 
     try:
         # 3) PARSE WITH YOUR TEMPLATE PARSER
-        #    This returns keys: fullname, email, phone, location,
-        #    summary, careerobjective, skills, softskills, experience,
-        #    education, projects, certifications, languages, dob, etc.
         parsed = extractresumefrompdf(upload_path)
 
         # 4) Build a minimal dict just for ATS scoring
@@ -823,4 +820,5 @@ def fix_titles():
 if __name__ == '__main__':
     with app.app_context():
         db.create_all()
+
     app.run(debug=True, use_reloader=False)
