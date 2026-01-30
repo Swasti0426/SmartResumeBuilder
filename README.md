@@ -1,5 +1,5 @@
 
-# Project Title
+# Smart Resume Builder
 
 A brief description of what this project does and who it's for
 Smart Resume Builder 🚀
